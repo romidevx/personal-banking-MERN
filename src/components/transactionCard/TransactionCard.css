@@ -1,0 +1,36 @@
+.transaction__card{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+  padding:10px 5px 10px 5px;
+}
+
+.transaction__card:nth-child(odd){
+  background: #d2d1cd;
+}
+.card__type, .card__amount{
+  text-align: right;
+}
+
+.card__amount{
+  margin-top: -4px;
+}
+
+.delete_button{
+  color:#ae3020;
+  cursor: pointer;
+}
+
+@media(max-width:450px){
+  .transaction__card{
+    grid-template-columns: 1fr;
+  }
+  .card__type, .card__amount{
+    text-align: left;
+    margin:8px 0 0 0;
+  }
+  .card__amount{
+    font-weight: 600;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,48 @@
+
+/* SECTION TRANSACTIONS */
+
+.transactions{
+  max-width: 800px;
+  max-height: 500px;
+  min-height:300px;
+  overflow-y: scroll;
+  margin: 40px auto;
+  background:#fff;
+  padding:10px;
+  box-shadow: 2px 3px 13px rgba(0,0,0,.2);
+}
+
+/* SECTION BUTTONS */
+
+.buttons__container{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0 0 20px 0;
+}
+
+.buttons__container button{
+  display:inline-block;
+  padding:10px 10px;
+  background: #044e7c;
+  border:none;
+  color:#fff;
+  cursor: pointer;
+}
+
+button:hover{
+  opacity: .9;
+}
+
+.add__transaction button{
+  margin-top:-3px;
+}
+
+.filter__buttons {
+  display:flex;
+  justify-content: space-between;
+}
+
+.filter__buttons button{
+  margin:0 0 0 5px;
+}

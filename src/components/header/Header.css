@@ -1,0 +1,26 @@
+.header{
+  padding:30px 10px 100px 10px;
+  background:#044e7c;
+  color:#fff;
+}
+.header__inner{
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__inner h4{
+  padding:10px 0;
+}
+
+@media(max-width:450px){
+  .header{
+    padding:30px 10px 50px 10px;
+  }
+  .header__inner{
+    display: block;
+    text-align: center;
+  }
+}
